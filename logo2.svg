@@ -1,17 +1,17 @@
 <svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" fill="none">
     <!-- Background -->
-    <rect width="400" height="400" fill="#D9C6B0"/>
+    <rect width="400" height="400" fill="#E5D4C3"/>
     
-    <!-- DNA-Inspired Symbol -->
-    <g stroke="#2D2D2D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M200 100 Q250 120 250 200 Q250 280 200 300 Q150 280 150 200 Q150 120 200 100 Z" fill="none"/>
-        <line x1="175" y1="150" x2="225" y2="150"/>
-        <line x1="175" y1="180" x2="225" y2="180"/>
-        <line x1="175" y1="220" x2="225" y2="220"/>
-        <line x1="175" y1="250" x2="225" y2="250"/>
-    </g>
+    <!-- Capsule Shape -->
+    <path d="M200 80C240 80 280 120 280 200C280 280 240 320 200 320C160 320 120 280 120 200C120 120 160 80 200 80Z" stroke="#1E1E1E" stroke-width="10" fill="none"/>
+    
+    <!-- Horizontal Lines Inside -->
+    <line x1="160" y1="140" x2="240" y2="140" stroke="#1E1E1E" stroke-width="10" stroke-linecap="round"/>
+    <line x1="160" y1="170" x2="240" y2="170" stroke="#1E1E1E" stroke-width="10" stroke-linecap="round"/>
+    <line x1="160" y1="200" x2="240" y2="200" stroke="#1E1E1E" stroke-width="10" stroke-linecap="round"/>
+    <line x1="160" y1="230" x2="240" y2="230" stroke="#1E1E1E" stroke-width="10" stroke-linecap="round"/>
     
     <!-- Text -->
-    <text x="100" y="340" font-family="Arial" font-size="40" fill="#2D2D2D" font-weight="bold">KINASE</text>
-    <text x="120" y="370" font-family="Arial" font-size="16" fill="#2D2D2D">- CLINICAL DEVELOPMENT -</text>
+    <text x="110" y="330" font-family="Arial" font-size="40" font-weight="bold" fill="#1E1E1E">KINASE</text>
+    <text x="120" y="360" font-family="Arial" font-size="20" font-weight="normal" fill="#1E1E1E">- CLINICAL DEVELOPMENT -</text>
 </svg>
